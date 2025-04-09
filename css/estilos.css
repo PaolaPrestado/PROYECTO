@@ -1,0 +1,59 @@
+/* Paleta de colores personalizada */
+.color1 { background-color: #2f3559 !important; } /* Encabezado principal */
+.color2 { background-color: #9a5071 !important; } /* Encabezados de tabla u otros elementos destacados */
+.color3 { background-color: #e394a7 !important; } /* Usar solo si necesitas acentos */
+.color4 { background-color: #f1bbbb !important; } /* Opcional para secciones suaves */
+.color5 { background-color: #e6d8cb !important; } /* Navbar o fondo claro */
+
+/* Texto personalizado */
+.text-white { color: #ffffff !important; }
+.text-dark { color: #343a40 !important; }
+
+/* Botones personalizados (opcional) */
+.btn-custom {
+  background-color: #9a5071;
+  color: white;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: #7a3c59;
+  color: white;
+}
+
+/* Estilo para tabla */
+.table thead.color2 th {
+  background-color: #9a5071;
+  color: white;
+}
+
+/* Estilo de enlaces */
+a {
+  color: #2f3559;
+}
+a:hover {
+  color: #9a5071;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background-color: #e6d8cb;
+  color: #2f3559;
+}
+
+/* Espaciado personalizado */
+.section {
+  padding: 60px 0;
+}
+
+/* Imagen del logo en navbar */
+.navbar-brand img {
+  max-height: 40px;
+}
+
+/* Responsive text alignment */
+@media (max-width: 576px) {
+  .text-center-sm {
+    text-align: center !important;
+  }
+}
