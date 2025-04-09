@@ -1,0 +1,110 @@
+.img-fluid {
+    width: 300px; /* Ancho fijo */
+    height: 200px; /* Alto fijo */
+    object-fit: cover; /* Asegura que la imagen se ajuste al área sin deformarse */
+    display: block;
+    margin: 0 auto;
+}
+/* Estilo para el contenedor del header */
+.header {
+    position: relative;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+/* Estilo para el logo */
+.logo {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    right: 10px; /* Ajusta la distancia desde el lado derecho */
+    width: 200px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+/* Estilos para el contenido */
+.content {
+    margin-top: 60px; /* Para no cubrir el contenido debajo del logo */
+}
+
+/* Establece el fondo general de la página */
+body {
+    background-color: #e6d8cb; /* Usando color más claro para un fondo cálido */
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 30px;
+}
+
+/* El encabezado tendrá un fondo oscuro y contrastante */
+header {
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Espaciado entre las secciones */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f1bbbb; /* Usando un color suave para las secciones */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Espaciado en los párrafos */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #2f3559; /* Usando un tono oscuro para los párrafos */
+}
+
+/* Márgenes y color para los títulos (h1, h3, h4) */
+h1 {
+    margin-bottom: 40px;
+    color: #9a5071; /* Usando color más cálido para el título principal */
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #9ed1b7; /* Un tono suave para subtítulos */
+    font-family: "Felix Titling", sans-serif;
+}
+
+h4 {
+    color: #9a5071; /* El mismo color cálido para subtítulos */
+    font-family: "Felix Titling", sans-serif;
+}
+
+/* Espaciado entre las columnas dentro de un contenedor */
+.container .row {
+    margin-bottom: 20px;
+}
+
+/* Asegúrate de que las imágenes se ajusten de manera fluida */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Añadir márgenes a las listas */
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #2f3559; /* Color más oscuro para las listas */
+}
+
+li {
+    margin-bottom: 10px;
+    color: #2f3559; /* Color oscuro para los elementos de lista */
+}
+
+/* Estilo para las tarjetas */
+.card {
+    background-color: #e394a7; /* Un verde suave para las tarjetas */
+    color: white; /* Asegura que el texto en la tarjeta sea legible */
+    padding: 20px;
+    border

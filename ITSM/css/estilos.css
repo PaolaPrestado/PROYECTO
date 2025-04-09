@@ -1,0 +1,91 @@
+
+/* Estilo para el contenedor del header */
+.header {
+    position: relative;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+
+/* Estilos para el contenido */
+.content {
+    margin-top: 60px; /* Para no cubrir el contenido debajo del logo */
+}
+
+/* Establece el fondo general de la página */
+body {
+    background-color: #e6d8cb; /* Usando el color más claro de la paleta para el fondo */
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 30px;
+}
+
+/* El encabezado tendrá un fondo con color de la paleta */
+header {
+    background-color: #9a5071; /* Usando .color2 */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Espaciado entre las secciones */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f1bbbb; /* Usando .color4 para las secciones */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Espaciado en los párrafos */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #2f3559; /* Usando .color1 para los párrafos */
+}
+
+/* Márgenes y color para los títulos (h1, h3, h4) */
+h1 {
+    margin-bottom: 40px;
+    color: #2f3559; /* Usando .color1 para el título principal */
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #9a5071; /* Usando .color2 para sub-títulos */
+    font-family: "Felix Titling", sans-serif;
+}
+
+h4 {
+    color: #9a5071; /* Usando .color2 para sub-títulos */
+    font-family: "Felix Titling", sans-serif;
+}
+
+/* Espaciado entre las columnas dentro de un contenedor */
+.container .row {
+    margin-bottom: 20px;
+}
+
+/* Asegúrate de que las imágenes se ajusten de manera fluida */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Añadir márgenes a las listas */
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #2f3559; /* Usando .color1 para las listas */
+}
+
+li {
+    margin-bottom: 10px;
+    color: #2f3559; /* Usando .color1 para los elementos de lista */
+}
